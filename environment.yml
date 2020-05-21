@@ -1,0 +1,11 @@
+name: plaidML_env
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - opencv
+  - jupyter
+  - scikit-learn
+  - seaborn
+  - pip:
+    - plaidml-keras
